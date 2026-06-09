@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sitio oficial de Gio Zamora, periodista independiente, creador de contenido, activista y fundador de Gio Global LLC.">
+    <title>Gio Zamora | Sitio oficial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Gio Zamora">
+        <span class="brand-mark">GZ</span>
+        <span>Gio Zamora</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#inicio" data-i18n="navHome">Inicio</a>
+        <a href="#quien-soy" data-i18n="navAbout">Quién soy</a>
+        <a href="#contacto" data-i18n="navContact">Contáctame</a>
+        <a href="#redes" data-i18n="navSocial">Redes</a>
+        <div class="language-switch" aria-label="Seleccionar idioma">
+          <button type="button" class="active" data-lang="es">ES</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <img class="hero-image" src="assets/img/hero-gio-zamora.jpg" alt="Conferencia profesional con audiencia">
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="heroEyebrow">Sitio oficial</p>
+          <h1 data-i18n="heroTitle">Bienvenidos al sitio oficial de Gio Zamora</h1>
+          <p data-i18n="heroCopy">
+            Periodista independiente, creador de contenido, activista y fundador de Gio Global LLC.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contacto" data-i18n="heroContact">Comunícate con Gio</a>
+            <a class="button secondary" href="#quien-soy" data-i18n="heroAbout">Conoce su historia</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="quien-soy">
+        <div class="section-label" data-i18n="aboutLabel">¿Quién es Gio Zamora?</div>
+        <div class="about-layout">
+          <h2 data-i18n="aboutTitle">Una voz independiente para comunidades latinas en Estados Unidos y México.</h2>
+          <div class="bio-text">
+            <p data-i18n="bioOne">
+              Gio Zamora es un periodista independiente, creador de contenido, activista y fundador de Gio Global LLC de 28 años. Se dedica a informar y apoyar a las comunidades latinas en Estados Unidos y México a través de reportajes de investigación rigurosos y contenido digital de alto impacto.
+            </p>
+            <p data-i18n="bioTwo">
+              Desde que inició su trabajo en el periodismo en 2022, Gio se ha enfocado en cubrir temas clave en la intersección de la seguridad, la inmigración y la política binacional entre México y Estados Unidos. Su trabajo combina investigación profunda con un estilo de comunicación claro y directo, guiado por la verdad, la imparcialidad y la objetividad.
+            </p>
+            <p data-i18n="bioThree">
+              Graduado de leyes en 2022, actualmente cursa una maestría en Administración y Políticas Públicas. Radica en Los Ángeles, California, donde desarrolla su trabajo a través de Gio Global LLC, una empresa de medios digital-first enfocada en contenido periodístico de calidad.
+            </p>
+            <p data-i18n="bioFour">
+              Con más de un millón de seguidores en sus plataformas, Gio también dedica gran parte de su tiempo al estudio del panorama de seguridad en México y Estados Unidos, al apoyo a comunidades migrantes y al uso responsable de nuevas tecnologías para ampliar el alcance del periodismo.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sendwave-band" aria-label="Sendwave">
+        <div class="sendwave-brand">
+          <img src="assets/icons/sendwave.svg" alt="Sendwave">
+          <div>
+            <p data-i18n="sendwaveTitle">Reclama $20 usando el código ZAMORA</p>
+            <span data-i18n="sendwaveCopy">Disponible para nuevos usuarios a través de Sendwave.</span>
+          </div>
+        </div>
+        <a class="button primary" href="https://www.sendwave.com/es?af_sub1=ZAMORA&deep_link_sub1=ZAMORA%20SENDWAVE&source_caller=sdk&pid=in-app%20referral&shortlink=lcmilcn3&af_referrer_customer_id=U6623104&af_siteid=846717081&c=Referral%20Launch&af_referrer_uid=1737497897491-3935151" target="_blank" rel="noopener" data-i18n="sendwaveButton">Reclamar $20</a>
+      </section>
+
+      <section class="contact section" id="contacto">
+        <div class="contact-card">
+          <div>
+            <div class="section-label" data-i18n="contactLabel">Contáctame</div>
+            <h2 data-i18n="contactTitle">Comunícate con Gio</h2>
+            <p data-i18n="contactCopy">
+              Si tienes alguna pregunta, comentario, duda, trabajas con medios o deseas colaborar de alguna manera, por favor comunícate.
+            </p>
+            <a class="email-link" href="mailto:info@giozamora.com">info@giozamora.com</a>
+          </div>
+
+          <form class="contact-form" data-contact-form>
+            <label>
+              <span data-i18n="formName">Nombre</span>
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label>
+              <span data-i18n="formEmail">Correo electrónico</span>
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label>
+              <span data-i18n="formPhone">Teléfono</span>
+              <input type="tel" name="phone" autocomplete="tel">
+            </label>
+            <label>
+              <span data-i18n="formMessage">Mensaje</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="button primary" type="submit" data-i18n="formSubmit">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="social section" id="redes">
+        <div class="section-label" data-i18n="socialLabel">Redes sociales</div>
+        <h2 data-i18n="socialTitle">Sigue a Gio Zamora</h2>
+        <div class="social-grid">
+          <a class="social-card instagram" href="https://www.instagram.com/giozamoraser" target="_blank" rel="noopener">
+            <span><img src="assets/icons/instagram.svg" alt=""></span>
+            <strong>Instagram</strong>
+            <small>@giozamoraser</small>
+          </a>
+          <a class="social-card facebook" href="https://www.facebook.com/profile.php?id=61573005991591" target="_blank" rel="noopener">
+            <span><img src="assets/icons/facebook.svg" alt=""></span>
+            <strong>Facebook</strong>
+            <small>Gio Zamora</small>
+          </a>
+          <a class="social-card tiktok" href="https://www.tiktok.com/@zamora_gio" target="_blank" rel="noopener">
+            <span><img src="assets/icons/tiktok.svg" alt=""></span>
+            <strong>TikTok</strong>
+            <small>@zamora_gio</small>
+          </a>
+          <a class="social-card youtube" href="https://youtube.com/@giozamoraser?si=42RivnR8wxDKol5S" target="_blank" rel="noopener">
+            <span><img src="assets/icons/youtube.svg" alt=""></span>
+            <strong>YouTube</strong>
+            <small>@giozamoraser</small>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Gio Zamora</p>
+      <div>
+        <a href="#inicio" data-i18n="navHome">Inicio</a>
+        <a href="#quien-soy" data-i18n="navAbout">Quién soy</a>
+        <a href="#contacto" data-i18n="navContact">Contáctame</a>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
