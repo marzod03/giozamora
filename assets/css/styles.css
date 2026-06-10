@@ -594,19 +594,25 @@ img {
   }
 
   .hero {
+    align-items: start;
     min-height: 90vh;
     padding-left: 16px;
     padding-right: 16px;
-    padding-top: 118px;
+    padding-top: 180px;
     padding-bottom: 54px;
   }
 
+  .hero-image img {
+    object-position: center bottom;
+  }
+
   .hero h1 {
-    font-size: 2.45rem;
+    font-size: 2.25rem;
   }
 
   .hero p:not(.eyebrow) {
     font-size: 1rem;
+    max-width: 94%;
     text-align: left;
   }
 
@@ -618,8 +624,9 @@ img {
 
   .hero-shade {
     background:
-      linear-gradient(90deg, rgba(7, 22, 25, 0.9), rgba(7, 22, 25, 0.52)),
-      linear-gradient(0deg, rgba(7, 22, 25, 0.78), rgba(7, 22, 25, 0.1));
+      linear-gradient(90deg, rgba(7, 22, 25, 0.82), rgba(7, 22, 25, 0.42)),
+      linear-gradient(180deg, rgba(7, 22, 25, 0.9) 0%, rgba(7, 22, 25, 0.68) 42%, rgba(7, 22, 25, 0.12) 72%),
+      linear-gradient(0deg, rgba(7, 22, 25, 0.42), rgba(7, 22, 25, 0) 48%);
   }
 
   .hero-actions,
@@ -656,10 +663,11 @@ img {
   .hero {
     padding-left: 14px;
     padding-right: 14px;
+    padding-top: 164px;
   }
 
   .hero h1 {
-    font-size: 2.15rem;
+    font-size: 2rem;
   }
 
   .section,
@@ -688,7 +696,7 @@ img {
   }
 
   .hero h1 {
-    font-size: 1.95rem;
+    font-size: 1.82rem;
   }
 
   .hero-actions {
